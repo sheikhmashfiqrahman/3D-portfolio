@@ -32,12 +32,12 @@ const Home = () => {
                 camera={{near: 0.1, far:100}}
             >
                 <Suspense fallback={<Loader/>}> 
-                    <directionalLight/>
-                    <ambientLight/>
-                    <pointLight/>
-                    <spotLight/>
-                    <hemisphereLight/>
-
+                    <directionalLight position ={[2,0,2]} intensity={1}/>
+                    <ambientLight position ={[2,0,2]} intensity={1}/>
+                    <pointLight intensity={2}/>
+                    {/* <spotLight position ={[2,0,2]} intensity={1}/> */}
+                    <hemisphereLight position ={[2,0,2]} intensity={1}/>
+ 
                     <Island position ={islandPosition} scale ={islandScale} rotation={islandRotation}/>
                 </Suspense>  
 
