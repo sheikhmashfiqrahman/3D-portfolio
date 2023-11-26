@@ -23,7 +23,8 @@
 
 ### MVP Features claimed 
 
-- ```Registration Page```: This is the landing page of the application. The users would be able to Register  into the application by providing their firstname, lastname, username and password. The user would be given a notification if there is an exisiting username therefore, the username needs to be unique. The page is designed as per our mockup design. 
+- ```3D objects```: designing a custom room 3d objects with animations and motions.
+- ``` Avatar``` : custom asset for creating a personalized avatar.
 
 
 
